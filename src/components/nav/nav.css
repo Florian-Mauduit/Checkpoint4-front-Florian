@@ -1,0 +1,61 @@
+/* Partie Header & Menu de navigation */
+header {
+  /* background-color: #03a678; */
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+/* Name */
+
+.name {
+  font-family: "Varela Round", sans-serif;
+  color: #03a678;
+  text-decoration: underline 2px;
+}
+
+/* Img Linkedin & Github & img CV */
+
+.linkedinImg {
+  margin-left: 4em;
+  margin-top: 5px;
+  padding-right: 8px;
+  width: 20px;
+}
+
+.githubImg {
+  width: 20px;
+  padding-right: 8px;
+}
+
+.cvImg {
+  width: 20px;
+}
+
+/* Lien de navigations  */
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lienNav {
+  font-family: "Varela Round", sans-serif;
+  color: black;
+  font-size: 17px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.lienNav:hover {
+  text-decoration: underline 3px #03a678;
+  color: #03a678;
+}
+
+@media (max-width: 900px) {
+  .lienNav {
+    font-size: 10px;
+  }
+}

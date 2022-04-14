@@ -1,0 +1,78 @@
+/* Regroupement de mes skills */
+
+.skills {
+  background-color: #03a678;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Mes HardSkills */
+
+.titreHard {
+  margin-bottom: 15px;
+}
+
+.hardSkills {
+  font-family: "Varela Round", sans-serif;
+  color: white;
+  font-size: 3vh;
+  margin-top: 200px;
+  margin-bottom: 30%;
+  margin-left: 60px;
+  max-width: 20em;
+  height: 13em;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 25%);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(5px);
+}
+/* Mes softSkills */
+
+.titreSoft {
+  margin-bottom: 15px;
+}
+
+.softSkills {
+  font-family: "Varela Round", sans-serif;
+  color: white;
+  font-size: 3vh;
+  margin-top: 200px;
+  margin-bottom: 30%;
+  margin-left: 60px;
+  max-width: 20em;
+  height: 8em;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 25%);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(5px);
+}
+
+/* Partie responsive */
+
+@media (max-width: 900px) {
+  .hardSkills {
+    margin-top: 30px;
+    font-size: 2vh;
+    margin-left: 0;
+    height: 250px;
+  }
+
+  .softSkills {
+    font-size: 2vh;
+    margin-left: 0;
+    margin-top: -20px;
+    /* margin-bottom: 50%; */
+    height: 130px;
+  }
+}

@@ -1,0 +1,68 @@
+/* Partie Info de mon profil */
+.infoPerso {
+  background-color: #03a678;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Partie onglet mail glasform */
+
+.mail {
+  font-family: "Varela Round", sans-serif;
+  color: white;
+  font-size: 3vh;
+  margin-top: 200px;
+  margin-bottom: 30%;
+  margin-left: 60px;
+  max-width: 20em;
+  height: 70px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 25%);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(5px);
+}
+
+/* Partie Résumé de mon profil */
+
+.description {
+  font-family: "Varela Round", sans-serif;
+  color: white;
+  font-size: 3vh;
+  margin-top: 200px;
+  margin-left: 150px;
+  max-width: 400px;
+  height: 20vh;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 25%);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(5px);
+}
+
+@media (max-width: 900px) {
+  .imageAccueil {
+    display: none;
+  }
+
+  .mail {
+    margin-top: 100px;
+    margin-left: 0;
+  }
+
+  .description {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 70%;
+    height: 300px;
+  }
+}
