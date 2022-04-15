@@ -1,0 +1,48 @@
+/* Element parent des projets */
+.allProject {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+/* Date des projets */
+.dateProjet {
+  font-family: "Varela Round", sans-serif;
+  margin-top: 10px;
+  text-decoration: underline 3px #03a678;
+}
+
+/* Css du projet 1 */
+.titreProjet1 {
+  font-family: "Varela Round", sans-serif;
+  margin-top: 15px;
+  text-decoration: underline 3px #03a678;
+}
+
+.imgProjet1 {
+  width: 200px;
+}
+
+/* Css du projet 2 */
+.titreProjet2 {
+  font-family: "Varela Round", sans-serif;
+  margin-top: 15px;
+  text-decoration: underline 3px #03a678;
+}
+
+.imgProjet2 {
+  width: 215px;
+  height: 300px;
+}
+
+/* Css du projet 3 */
+.titreProjet3 {
+  font-family: "Varela Round", sans-serif;
+  margin-top: 15px;
+  text-decoration: underline 3px #03a678;
+}
+
+.imgProjet3 {
+  width: 200px;
+}

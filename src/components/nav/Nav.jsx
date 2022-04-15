@@ -29,7 +29,7 @@ function Nav() {
           Mes compétences
         </NavLink>
         <NavLink className="lienNav" to="/projet">
-          Mes projet
+          Mes projets
         </NavLink>
       </div>
     </header>

@@ -1,14 +1,16 @@
 import React from "react";
 import "./introduction.css";
-// import img from "../img/imageAccueilPetite.jpg";
 
 function Introduction() {
   return (
     <section className="sectionInfo">
       <div className="infoPerso">
-        <div className="mail">
-          <p>Mon email :</p>
-          <p>flomauduit@orange.fr</p>
+        <div className="myPicture">
+          {/* <img src={img} alt="" className="myImage" /> */}
+          <div className="mail">
+            <p>Mon email :</p>
+            <p>flomauduit@orange.fr</p>
+          </div>
         </div>
         <div className="description">
           <p>
